@@ -1,0 +1,13 @@
+.pixel-card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: inherit;
+  outline: none;
+}
+
+.pixel-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
